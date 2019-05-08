@@ -1,0 +1,4 @@
+dialog (Result) {
+  match: Startup (this)
+  template("#{value(this.name)}...#{value(this.desc)}")
+}

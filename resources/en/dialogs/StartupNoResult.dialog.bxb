@@ -1,0 +1,4 @@
+dialog (NoResult) {
+  match: Startup (this)
+  template("I didn't find any startups. Maybe they're all grown companies now.")
+}

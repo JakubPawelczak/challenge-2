@@ -1,0 +1,9 @@
+action (FindStartup) {
+  type (Search)
+  collect {
+    input (startup) {
+      type (StartupEnum)
+    }
+  }
+  output (Startup)
+}

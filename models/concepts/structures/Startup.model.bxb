@@ -1,0 +1,14 @@
+structure (Startup) {
+  property (name) {
+    type (StartupName)
+    min (Required)
+  }
+  property (desc) {
+    type (Description)
+    min (Required)
+  }
+  property (url) {
+    type (ImageUrl)
+    min (Required)
+  }
+}

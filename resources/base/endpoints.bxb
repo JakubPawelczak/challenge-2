@@ -1,0 +1,8 @@
+endpoints {
+  action-endpoints {
+    action-endpoint (FindStartup) {
+      accepted-inputs (startup)
+      local-endpoint (FindStartup.js)
+    }
+  }
+}

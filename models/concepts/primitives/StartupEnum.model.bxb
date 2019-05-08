@@ -1,0 +1,7 @@
+enum (StartupEnum) {
+  symbol (GoldenStandard)
+  symbol (ThatFork)
+  symbol (MrBunny)
+  symbol (Books)
+  symbol (Glasses)
+}
